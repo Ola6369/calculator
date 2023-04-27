@@ -1,0 +1,99 @@
+.container{
+    height: 600px;
+    width: 400px;
+    background-color:rgb(44, 40, 40);
+    position: relative;
+}
+.bars{
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.standard{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#smallscreen{
+    margin-top: 10px;
+    margin-left: 1px;
+    width: 390px;
+    height: 25px;
+    background-color:rgb(44, 40, 40);
+    border: 2px solid rgb(44, 40, 40);
+    border-radius: 5px;
+    text-align: right;
+    color: rgb(143, 134, 134);
+    font-size: 18px;
+}
+#bigscreen{
+    width: 390px;
+    height: 60px;
+    margin-left: 1px;
+    margin-top: 6px;
+    background-color:rgb(44, 40, 40);
+    border: 2px solid rgb(44, 40, 40);
+    border-radius: 5px;
+    text-align: right;
+    font-size: 40px;
+    color: white;
+}
+.fun{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.fam{
+    width: 95px;
+    height: 65px;
+   background-color:rgb(44, 40, 40);
+   color: white;
+   border: 1px solid black;
+   font-size: 18px;
+}
+.fam:hover{
+    background-color: rgb(119, 109, 109);
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3px;
+}
+.row3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3px;
+}
+.cam{
+    width: 95px;
+    height: 65px;
+   background-color:rgb(0, 0, 0);
+   color: white; 
+   font-size: 18px;
+}
+.cam:hover{
+    background-color: rgb(119, 109, 109);
+    border: 1px solid  rgb(119, 109, 109);
+}
+.row4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3px;
+}
+.row5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3px;
+}
+.row6{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3px;
+}

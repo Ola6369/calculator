@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./calculator.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=d
+    evice-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div style="display: flex;">
+            <div class="fa-solid fa-bars bars"></div>
+            <div class="standard">Standard</div>
+        </div>
+        <input type="text" id="smallscreen">
+        <input type="text" id="bigscreen">
+        <div class="fun">
+            <div style="color:dimgray;">MC</div>
+            <div style="color:dimgray;">MR</div>
+            <div style="color: white;">M+</div>
+            <div style="color: white;">M-</div>
+            <div style="color: white;">MS</div>
+        </div>
+        <div class="row1">
+            <button class="fam" onclick="pcentage('%')">%</button>
+            <button class="fam" onclick="squareroot('√')" >√</button>
+            <button class="fam" onclick="square('x²')">x²</button>
+            <button class="fam" onclick="fraction('1/​x')">1/​x</button>
+        </div>
+        <div class="row2">
+            <button class="fam" onclick="clrlower()">CE</button>
+            <button class="fam" onclick="clr()">C</button>
+            <button class=" fa-solid fa-delete-left fam" onclick="back()"></button>
+            <button class="fam" onclick="operator('÷')">÷</button>
+        </div>
+        <div class="row3">
+            <button class="cam" onclick="display('7')">7</button>
+            <button class="cam" onclick="display('8')">8</button>
+            <button class="cam" onclick="display('9')">9</button>
+            <button class="fam"  onclick="operator('x')">x</button>   
+        </div>
+        <div class="row4">
+            <button class="cam" onclick="display('4')">4</button>
+            <button class="cam" onclick="display('5')">5</button>
+            <button class="cam" onclick="display('6')">6</button>
+            <button class="fam"  onclick="operator('-')">-</button>   
+        </div>
+        <div class="row5">
+            <button class="cam" onclick="display('1')">1</button>
+            <button class="cam" onclick="display('2')">2</button>
+            <button class="cam" onclick="display('3')">3</button>
+            <button class="fam"  onclick="operator('+')">+</button>  
+        </div>
+        <div class="row6">
+            <button class="fam" onclick="plusminus('±')">±</button>
+            <button class="cam" onclick="display('0')">0</button>
+            <button class="fam" onclick="display('.')">.</button>
+            <button class="fam" onclick="equal('=')">=</button>  
+        </div>
+    </div>
+</body>
+<script src="./calculator.js"></script>
+</html>
